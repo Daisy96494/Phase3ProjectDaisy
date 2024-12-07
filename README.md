@@ -74,19 +74,19 @@ the Random Forest model seems to perform well overall in predicting customer chu
 
 #### Confusion matrix
 
-![Project Screenshot](documents/ConfusionMatrix.jpg)
+![Project Screenshot](ConfusionMatrix.jpg)
 
 #### Feature Importance
 The top 10 most important features of the random forest model
-![Project Screenshot](documents/FeatureImportance.jpg)
+![Project Screenshot](FeatureImportance.jpg)
 
 #### Comparison to choose the best model
 
-![Project Screenshot](documents/Comparison.jpg)
+![Project Screenshot](Comparison.jpg)
 Based on the provided metrics, the Decision Trees Classifier achieved the highest F1-score (81.00%). The logistic regression had the highest recall (73.00%), while the Random Forest Classifier achieved the highest precision (96.00%). The Random Forest Classifier is the best-performing model overall and so we selected it as our best model.
 
 #### ROC and AUC curves
-![Project Screenshot](documents/ROC.jpg)
+![Project Screenshot](ROC.PNG)
 The ROC curves for Logistic Regression, Decision Tree, and Random Forest models were analyzed. The Random Forest model outperformed the others, showing a higher Area Under the Curve (AUC) and better classification performance, making it the most effective model
 
 ## Conclusion and Recommendations
